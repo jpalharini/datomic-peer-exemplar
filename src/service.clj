@@ -21,5 +21,5 @@
                        ::http/type   :jetty
                        ::http/port   8090}))
 
-(defn start! []
+(defn start! [& _]
   (http/start (create-server)))
