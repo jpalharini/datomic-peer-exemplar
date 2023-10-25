@@ -1,0 +1,6 @@
+{:deps    {org.clojure/clojure                 {:mvn/version "1.11.1"}
+           com.datomic/peer                    {:mvn/version "1.0.7021"}
+           com.amazonaws/aws-java-sdk-dynamodb {:mvn/version "1.12.410"}
+           io.pedestal/pedestal.service        {:mvn/version "0.6.1"}
+           io.pedestal/pedestal.jetty          {:mvn/version "0.6.1"}}
+ :aliases {:start-http {:exec-fn service/start!}}}
